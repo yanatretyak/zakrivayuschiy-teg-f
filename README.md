@@ -1,1 +1,1 @@
-https://github.com/yanatretyak/zakrivayuschiy-teg-f
+https://yanatretyak.github.io/zakrivayuschiy-teg-f/
