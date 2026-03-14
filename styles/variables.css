@@ -1,1 +1,11 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: 'Inter', Arial, sans-serif;
+  --accent-font: 'PressStart2P', monospace;
+  --title-weight: 715;
+  --text-weight: 410;
+  --block-width: clamp(375px, 48.6111111vw, 700px);
+  --button-text-color: rgba(255, 255, 255, 1);
+  --contour-color: black;
+  --animation-fill-color: red;
+}
