@@ -4,6 +4,9 @@
   --accent-font: 'PressStart2P', monospace;
   --title-weight: 715;
   --text-weight: 410;
+  --text-color: rgba(0, 0, 0, 1);
+  --bg-color: rgba(255, 255, 255, 1);
+  --block-accent-color: rgba(0, 0, 0, 1);
   --block-width: clamp(375px, 48.6111111vw, 700px);
   --button-text-color: rgba(255, 255, 255, 1);
   --contour-color: black;
