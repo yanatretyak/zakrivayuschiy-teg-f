@@ -4,11 +4,12 @@
   --accent-font: 'PressStart2P', fantasy;
   --title-weight: 715;
   --text-weight: 410;
-  --text-color: rgba(0, 0, 0, 1);
-  --bg-color: rgba(255, 255, 255, 1);
-  --block-accent-color: rgba(0, 0, 0, 1);
+  --text-color: rgba(0, 0, 0);
+  --img-label-accent-color: rgba(255, 255, 255);
+  --bg-color: rgba(255, 255, 255);
+  --block-accent-color: rgba(0, 0, 0);
   --block-width: clamp(375px, 48.6111111vw, 700px);
-  --button-text-color: rgba(255, 255, 255, 1);
+  --button-text-color: rgba(255, 255, 255);
   --contour-color: black;
   --animation-fill-color: red;
 }

@@ -131,16 +131,16 @@
   opacity: 0.5;
   mix-blend-mode: hard-light;
   text-shadow: 
-    1px 0 rgba(255, 255, 255, 1),
-    -1px 0 rgba(255, 255, 255, 1),
-    0 1px rgba(255, 255, 255, 1),
-    0 -1px rgba(255, 255, 255, 1);
+    1px 0 var(--img-label-accent-color),
+    -1px 0 var(--img-label-accent-color),
+    0 1px var(--img-label-accent-color),
+    0 -1px var(--img-label-accent-color);
 }
 
-@supports((text-stroke: 1px rgba(255, 255, 255, 1)) or (-webkit-text-stroke: 1px rgba(255, 255, 255, 1))) {
+@supports((text-stroke: 1px var(--img-label-accent-color)) or (-webkit-text-stroke: 1px var(--img-label-accent-color))) {
   .card__image-label {
-    -webkit-text-stroke: 1px rgba(255, 255, 255, 1);
-    text-stroke: 1px rgba(255, 255, 255, 1);
+    -webkit-text-stroke: 1px var(--img-label-accent-color);
+    text-stroke: 1px var(--img-label-accent-color);
     text-shadow: none;
   }
 }
@@ -155,7 +155,7 @@
   background-color: var(--bg-color);
   cursor: pointer;
   position: relative;
-  color: white;
+  color: var(--button-text-color);
 }
 
 .card__icon-button {
@@ -245,7 +245,8 @@
 }
 
 .dialog::backdrop {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: var(--block-accent-color);
+  opacity: 0.75;
 }
 
 .button:focus {
@@ -259,7 +260,7 @@
 
 .button:not(.card__icon-button)::before {
   content: "";
-  background-color: rgba(0, 0, 0, 1);
+  background-color: var(--block-accent-color);
   position: absolute;
   inset: 0;
   transform: scaleX(0);
